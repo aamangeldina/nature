@@ -1,0 +1,196 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f5eff2;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    background: white;
+    position: relative;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-brand:hover {
+    color: rgba(114, 138, 124, 0.678);
+  }
+  .navbar-brand {
+    justify-content:center;
+    position: relative;
+    display: block;
+    left: 3%;
+  }
+
+  .nav-link {
+    margin-right: 1.5em !important;
+    font-size:14px;
+  }
+
+  .nav-link:hover {
+    color: rgba(114, 138, 124, 0.678);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .dropdown-menu a{
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 0px;
+    padding-left: 10px;
+    color: rgb(112, 112, 112);
+  }
+
+  .header {
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 75%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+  }
+  .description h2{
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+.description p {
+  color: rgb(32, 31, 31);
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 00;
+}
+
+  .description button {
+    border:1px solid rgba(114, 138, 124, 0.9);
+    background:rgba(114, 138, 124, 0.9);
+    border-radius: 2 em;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
+
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    text-align: center;
+    color: rgb(85, 77, 77);
+  }
+.img-fluid{
+  opacity: 50%;
+}
+  .feature-title {
+    color: rgba(114, 138, 124);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+
+.subscribe{
+width: 50%;
+margin-left:25%;
+}
+
+  .features .form-control,
+  .features input {
+      border-radius: 1 rem;
+  }
+  .features .btn {
+    background-color: rgba(114, 138, 124);
+    border: 1px solid rgba(114, 138, 124);
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .features .btn:hover {
+    background-color: rgb(158, 158, 158);
+    border: 1px solid rgb(158, 158, 158);
+  }
+
+
+  .subscribe {
+    margin-top: 50px; 
+  }
+
+  .describe {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .page-footer {
+    background-color: rgb(87, 87, 87);
+    color: rgb(216, 216, 216);
+    padding-top: 30px;
+    font-size: 14px;
+  }
+  .footer-copyright {
+    color: rgb(44, 44, 44);
+    padding: 40px 0;
+  }
+
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
+
+  .products{
+    font-family: 'Poiret One', cursive;
+
+  }
+
+  .describe {
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+  }
+
+  .describe h5{
+   padding-bottom: 20px;
+  }
